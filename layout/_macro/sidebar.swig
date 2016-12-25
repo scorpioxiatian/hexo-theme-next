@@ -65,6 +65,10 @@
               <i class="fa fa-rss"></i>
               RSS
             </a>
+            <a href="javascript:shake()" rel="alternate">
+              <i class="fa fa-music"></i>
+              HOT_DANCE
+            </a>
           </div>
         {% endif %}
 

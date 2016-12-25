@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: /images/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
@@ -36,10 +36,11 @@ canonical: true
 menu:
   home: /
   categories: /categories
-  about: /about
   archives: /archives
   tags: /tags
-  sitemap: /sitemap.xml
+  # sitemap: /sitemap.xml
+  love: /romance/love.html
+  about: /about
   commonweal: /404.html
 
 
@@ -59,6 +60,7 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
+  love: heart
 
 
 
@@ -392,7 +394,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: true
+  enable: false
   hits:
     per_page: 10
   labels:
